@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">MyPortfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a web developer specializing in creating beautiful and functional websites.</p><br>
+            <a href="#projects" class="cta-button">See My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-title">
+            <h2>About Me</h2>
+        </div>
+        <div class="about-content">
+            <img src="./port.jpg" alt="">
+            <p>Hello! I'm Jaladi Archana a passionate web developer with experience in creating dynamic and responsive websites. I love coding and solving problems.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-title">
+            <h2>Projects</h2>
+        </div>
+        <div class="project-container">
+            <!-- Example Project Item -->
+            <div class="project-item">
+                <a href="../calculator/index.html"><img src="./project1.webp" alt="Project 1"></a>
+                <h3>Project 1</h3>
+                <p>It is Calculator</p>
+            </div>
+            <div class="project-item">
+                <a href="../wordcounter/index.html"><img src="./project2.png" alt="Project 2"></a>
+                <h3>Word Counter 2</h3>
+                <p>It is word counter.it counts Letters,words and paragraph</p>
+            </div>
+            
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-title">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MyPortfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
